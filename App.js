@@ -7,7 +7,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import validator from "validator";
 
 // component imports
-import H2Header from './components/H2Header';
+import H2Heading from './components/H2Heading';
 import CCNumInput from './components/CCNumInput';
 import CheckButton from './components/CheckButton';
 
@@ -32,7 +32,7 @@ const App = () => {
 
 	return (
 		<SafeAreaView style={styles.container}>
-			<H2Header
+			<H2Heading
 				textContent="Credit Card Number Checker"
 			/>
 			<CCNumInput
